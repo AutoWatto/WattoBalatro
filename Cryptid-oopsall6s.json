@@ -1,0 +1,14 @@
+{
+	"id": "CryptidOopsall6s",
+	"name": "Cryptid-Oopsall6s'",
+	"display_name": "Cryptid-OopsAll6s",
+	"author": ["AutoWatto"],
+	"description": "a mod that adds oops all 6s as a deck and sleeve",
+	"prefix": "oops",
+	"main_file": "OopsAll6s.lua",
+	"priority": 0,
+	"badge_colour": "708b91",
+	"badge_text_colour": "FFFFFF",
+	"version": "0.1.0",
+	"dependencies": ["Talisman"],
+}
