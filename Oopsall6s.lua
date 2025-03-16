@@ -17,8 +17,8 @@ SMODS.Back{
 if CardSleeves then
     CardSleeves.Sleeve {
         key = "oopsall6s",
-        atlas = 'oopsall6sdeck',
-        pos = { x = 1, y = 0 },
+        atlas = 'oopsall6ssleeve',
+        pos = { x = 0, y = 0 },
         apply = function(self)
             G.E_MANAGER:add_event(Event({
                 func = function()
@@ -35,5 +35,13 @@ SMODS.Atlas({
 	atlas_table = "ASSET_ATLAS",
 	path = "oopsall6sdeck.png",
 	px = 71,
+	py = 95
+})
+
+SMODS.Atlas({
+	key = "oopsall6ssleeve",
+	atlas_table = "ASSET_ATLAS",
+	path = "oopsall6ssleeve.png",
+	px = 73,
 	py = 95
 })
